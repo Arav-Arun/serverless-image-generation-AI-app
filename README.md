@@ -2,7 +2,7 @@
 
 ## Overview
 
-Welcome to the Image Editing Tool! This is a serverless web application built on AWS that allows you to upload and edit images. It leverages a modern "Hacker/Terminal" theme for a unique user experience.
+Welcome to LambdaLens. This is a serverless web application built on AWS that allows you to upload and edit images. It leverages a modern Terminal theme for a unique user experience.
 
 ### Key Features
 
