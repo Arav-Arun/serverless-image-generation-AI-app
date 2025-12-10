@@ -1,6 +1,7 @@
 # Workshop Configuration Guide
 
 ## Overview
+
 This directory contains the configuration file that connects your application to your AWS resources. You only need to edit the `config.js` file with your specific AWS resource identifiers.
 
 ## Quick Setup
@@ -13,6 +14,7 @@ This directory contains the configuration file that connects your application to
 ## Finding Your AWS Resource Identifiers
 
 ### Cognito User Pool ID
+
 1. Go to AWS Console > Amazon Cognito
 2. Click on "User Pools"
 3. Select your user pool
@@ -20,15 +22,18 @@ This directory contains the configuration file that connects your application to
 5. Format: `us-west-2_uXboG5pAb`
 
 ### Cognito App Client ID
+
 1. In your User Pool, go to "App Clients" tab
 2. Copy the "App client id"
 3. Format: `25ddkmj4v6hfsfvruhpfi7n4hv`
 
 ### AWS Region
+
 1. Check the region selector in your AWS Console (top right)
 2. Use the region code (e.g., `us-west-2`, `us-east-1`, `eu-west-1`)
 
 ### API Gateway URL
+
 1. Go to AWS Console > API Gateway
 2. Select your API
 3. Go to "Stages" in the left menu
@@ -39,19 +44,23 @@ This directory contains the configuration file that connects your application to
 ## Troubleshooting
 
 ### Configuration Not Loading
+
 - Ensure all placeholder values are replaced
 - Check that the file is saved properly
 - Verify the file is in the correct location (`dist/config/config.js`)
 
 ### Authentication Errors
+
 - Double-check your Cognito User Pool ID and Client ID
 - Ensure the region matches your Cognito setup
 - Verify your user pool allows the configured client
 
 ### API Errors
+
 - Confirm your API Gateway URL is correct and accessible
 - Check that your API has CORS enabled for your domain
 - Verify the API stage is deployed
 
 ## Support
+
 If you encounter issues, check the browser console for detailed error messages.
