@@ -40,6 +40,4 @@ Welcome to the Image Editing Tool! This is a serverless web application built on
 
 If the application fails to load or authentication errors occur, please double-check your values in `config/config.js` against your AWS Console.
 
----
 
-_Generated for Arav's AWS Workshop_
